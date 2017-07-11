@@ -2,6 +2,7 @@ package com.stackabuse.example;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Date;
 
 import org.apache.camel.Exchange;
 import org.apache.camel.Processor;
