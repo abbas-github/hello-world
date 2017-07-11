@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1468257399511
+Build-Jdk: 1.7.0_79
+Built-By: hp
+Bundle-Blueprint: OSGI-INF/blueprint/blueprint-example.xml
+Bundle-ManifestVersion: 2
+Bundle-Name: Example Blueprint
+Bundle-SymbolicName: com.stackabuse.example.stackabuse-example-blueprint
+Bundle-Version: 0.0.1
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.stackabuse.example;uses:="org.apache.camel";version=
+ "0.0.1"
+Import-Package: org.apache.camel;version="[2.12,3)",org.json,org.osgi.se
+ rvice.blueprint;version="[1.0.0,2.0.0)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Tool: Bnd-3.0.0.201509101326
